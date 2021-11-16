@@ -69,8 +69,8 @@ while True:
     else:
         print('varian tidak ditemukan')
         continue
-    pilih = input('Apakah Pilih Lagi ?')
-    if pilih == 'Y' or pilih == 'N':
+    pilih = input('Apakah Pilih Lagi (y/t)')
+    if pilih == 'Y' or pilih == 'y':
         continue
     else:
         print('==== list market ====')
